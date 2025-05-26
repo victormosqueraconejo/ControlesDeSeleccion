@@ -25,13 +25,11 @@ public class MainActivity extends AppCompatActivity {
     ListView lvJugadores;
     Spinner spEquipos;
 
-    String [] jugadores = {"Falcao", "James Rodriguez", "Juan Cuadrado"};
+    String [] jugadores = {"Falcao", "James Rodriguez", "Juan Cuadrado", "RadioGroup Actividad", "Calculadora Productos"};
     String [] equipos = {"Seleccionar Equipo","Barcelona", "Real Madrid", "Magallanes"};
 
     ArrayAdapter jugadoresAdaptador;
     ArrayAdapter equiposAdapter;
-
-
 
 
     @Override
@@ -53,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 valorPresionadoEquipos = position;
-                if (position > 0) {
-                    Intent irEquipos = new Intent(MainActivity.this, Equipos.class);
-                    startActivity(irEquipos);
-                }
+                    if (position >  0) {
+                        Intent irEquipos = new Intent(MainActivity.this, Equipos.class);
+                        startActivity(irEquipos);
+                    }
             }
 
             @Override
@@ -69,8 +67,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 valorPresionadoJugadores = position;
-                Intent vistaJugadores = new Intent(MainActivity.this, Jugadores.class);
-                startActivity(vistaJugadores);
+                if (position > 0 && position <= 2) {
+                    Intent vistaJugadores = new Intent(MainActivity.this, Jugadores.class);
+                    startActivity(vistaJugadores);
+                } else if (position == 3) {
+                    Intent vistaJugadores = new Intent(MainActivity.this, RadioGroup.class);
+                    startActivity(vistaJugadores);
+                }
+                else if (position == 4 ) {
+                    Intent vistaJugadores = new Intent(MainActivity.this, CalculadoraProducto.class);
+                    startActivity(vistaJugadores);
+                }
+
             }
         });
 

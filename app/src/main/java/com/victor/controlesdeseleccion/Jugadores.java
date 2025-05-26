@@ -45,7 +45,11 @@ public class Jugadores extends AppCompatActivity {
                 descripcionJugador.setText(R.string.descripcion_cuadrado);
                 imagenJugador.setImageResource(R.drawable.jugador3__cuadrado);
                 break;
-
+            case 3:
+                nombreJugador.setText(0);
+                descripcionJugador.setText(0);
+                imagenJugador.setImageResource(0);
+                break;
         }
 
 

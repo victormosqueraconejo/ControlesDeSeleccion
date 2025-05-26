@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ControlesDeSeleccion</string>
-    <string name="descripcion_realmadrid" >
+    <string name="descripcion_realmadrid">
         El Real Madrid es uno de los equipos de fútbol más famosos del mundo, fundado en 1902 y con sede en Madrid, España. Además del primer equipo, también cuenta con un equipo B llamado Real Madrid Castilla que juega en la Primera Federación.
         Real Madrid: Fundado en 1902, juega en La Liga y su estadio es el Santiago Bernabéu.
         Real Madrid Castilla: Fundado en 1943, juega en la Primera Federación y su estadio es el Estadio Alfredo Di Stéfano.
@@ -10,7 +10,7 @@
         El equipo actualmente está dirigido por Joan Laporta como presidente.
         La plantilla oficial del FC Barcelona para la temporada 2024/25 incluye a jugadores destacados como Lionel Messi, Andrés Iniesta y Gerard Piqué.
     </string>
-    <string name="descripcion_magalanes" >
+    <string name="descripcion_magalanes">
         El Club Deportivo Magallanes es un equipo de fútbol chileno fundado en 1897. Actualmente participa en la Liga de Ascenso y tiene previsto jugar su próximo partido contra Deportes Temuco el 18 de mayo de 2025.
         Mathías Bernatene: Portero, nacido el 24 de julio de 2000, valor de mercado de 300 mil €.
         Andro Martinic: Portero, nacido el 1 de noviembre de 1996, valor de mercado de 25 mil €.

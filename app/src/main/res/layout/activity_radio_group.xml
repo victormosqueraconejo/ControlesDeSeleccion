@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioGroup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione un Genero"
+        android:textSize="32dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/rbFemenino"
+            android:text="Femenino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rbMasculino"
+            android:layout_width="wrap_content"
+            android:text="Masculino"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chEspanol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Español"
+        />
+    <CheckBox
+        android:id="@+id/chIngles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingles"
+        />
+    <CheckBox
+        android:id="@+id/chChino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chino"
+        />
+    <CheckBox
+        android:id="@+id/chAleman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aleman"
+        />
+
+</LinearLayout>

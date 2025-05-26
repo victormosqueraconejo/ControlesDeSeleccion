@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalculadoraProducto">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venta de Productos"
+        android:layout_gravity="center"
+        android:textSize="32dp"
+        />
+    <RadioGroup
+        android:layout_marginTop="30dp"
+        android:id="@+id/rgProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/rdTelevisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="Televisor"
+            />
+
+        <RadioButton
+            android:id="@+id/rdRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="Radio"
+            />
+
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="28dp"
+        android:id="@+id/textValorProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Producto"
+        />
+
+    <CheckBox
+        android:id="@+id/chDescuento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Descuento 10%"
+        />
+    <TextView
+        android:textSize="24dp"
+        android:id="@+id/textValorDescuento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Valor con Descuento"
+        />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:textSize="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="CALCULAR"
+        android:backgroundTint="#B2B2B2"
+        />
+
+    <TextView
+        android:textSize="24dp"
+        android:id="@+id/textValorFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Valor Final"
+        />
+
+
+
+
+</LinearLayout>
